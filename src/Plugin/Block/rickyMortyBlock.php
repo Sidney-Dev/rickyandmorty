@@ -10,7 +10,7 @@ use Drupal\Core\Form\FormStateInterface;
  *
  * @Block(
  *   id = "ricky_and_morty",
- *   admin_label = @Translation("Blcok for the Ricky and Morty API connection"),
+ *   admin_label = @Translation("Block for the Ricky and Morty API connection"),
  *   category = @Translation("Ricky and Morty API connection"),
  * )
  */

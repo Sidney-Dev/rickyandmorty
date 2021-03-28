@@ -1,0 +1,18 @@
+<?php
+
+/**
+ * Implements hook_theme().
+ */
+function rickyandmorty_theme() {
+
+  $form = \Drupal::formBuilder()->getForm('Drupal\rickyandmorty\Form\RickyForm');
+  $config = \Drupal::config('rickyandmorty.settings');
+
+  return [
+    'rickyandmorty_content' => [
+      'variables' => [
+        'form' => $form,
+      ],
+    ],
+  ];
+}

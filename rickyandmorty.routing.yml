@@ -1,0 +1,7 @@
+rickyandmorty.admin_settings:
+  path: '/admin/config/rickyandmorty'
+  defaults:
+    _form: '\Drupal\rickyandmorty\Form\RickyMortyConfiguration'
+    _title: 'Ricky and Morty configuration page'
+  requirements:
+    _permission: 'administer site configuration'

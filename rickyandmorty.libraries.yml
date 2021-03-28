@@ -1,0 +1,11 @@
+rickyandmorty:
+  version: 1.x
+  css:
+    theme:
+      css/general.css: {}
+      css/search-header.css: {}
+      css/ricky.css: {}
+      css/responsive-styling.css: {}
+  js:
+    js/ricky.js: {}
+    fonts/fontawesome.js: {}

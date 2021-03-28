@@ -1,0 +1,30 @@
+{#
+# Available variables:
+    form:
+        form.filter => this variable renders the text field used to search for a character from Ricky and Morty API       
+#}
+<section>
+    <main>
+        <div id="ricky-container">
+            
+                <form id="rickyForm">
+                    <header class="box-search">
+                        <figure class="block-logo">
+                            <img src="https://www.logolynx.com/images/logolynx/68/68e4c1fe3544f2facb1884609e15a5e3.png" alt="">
+                        </figure>
+
+                        <div class="placeholder-box">
+                            <span class="icon"><i class="fas fa-search"></i></span>
+                            {{ form.search_filter }}
+                        </div>
+                    </header>
+
+                    {# Never delete this markup. It is where the API result is rendered #}
+                    <div id="search-result-container"></div>
+        
+                    <button type="submit" class="roboto">Search</button>
+                </form>
+            
+        </div>
+    </main>
+</section>

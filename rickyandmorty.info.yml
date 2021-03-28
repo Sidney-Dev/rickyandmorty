@@ -1,0 +1,6 @@
+name: Ricky and morty
+description: This module is used to render a custom block that connects to Ricky and Morty API
+type: module
+core: 8.x
+core_version_requirement: ^8 || ^9
+configure: rickyandmorty.admin_settings

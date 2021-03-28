@@ -1,0 +1,65 @@
+.box-search {
+    background: #fafafa;
+    border-bottom: 1px solid #ccc;
+    padding: 20px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.box-search figure {
+    margin: 0;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.block-logo img {
+    width: 66%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.box-search .placeholder-box {
+    position: relative;
+}
+
+.box-search .icon {
+    position: absolute;
+}
+
+#ricky-filter {
+    background: transparent;
+    border: 0;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+    font-size: 18px;
+    color: #999;
+    font-weight: 300;
+}
+
+#ricky-filter:focus {
+    outline: 0;
+    border: 0;
+}
+
+
+#rickyForm button {
+    border: 0;
+    min-width: 100px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+#rickyForm .form-item, #rickyForm .form-actions {
+    margin: 0;
+}
+
+svg.svg-inline--fa.fa-search.fa-w-16 {
+    color: #999;
+}
+
